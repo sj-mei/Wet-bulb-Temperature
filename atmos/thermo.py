@@ -76,7 +76,7 @@ import warnings
 from atmos.constant import (g, Rd, Rv, eps, cpd, cpv, cpl, cpi, p_ref,
                             T0, es0, Lv0, Lf0, Ls0, T_liq, T_ice)
 import atmos.pseudoadiabat as pseudoadiabat
-from numba import vectorize
+from atmos.numba_compat import vectorize
 
 
 # Precision for iterative temperature calculations (K)
